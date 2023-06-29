@@ -24,21 +24,14 @@ module.exports = {
     },
     nodes: [
         {
-            name: process.env.NODE_NAME1 || "Lunox 01", // lavalink node name (anything you want)
-            host: process.env.NODE_HOST1 || "localhost", // lavalink host
-            port: parseInt(process.env.NODE_PORT1 || "2333"), //lavalink port
-            password: process.env.NODE_PASSWORD1 || "youshallnotpass", //lavalink pass/auth
-            secure: parseBoolean(process.env.NODE_SECURE1 || "false"), //lavalink secure "true/false"
+            name: process.env.NODE_NAME || "Lunox 01", // lavalink node name (anything you want)
+            host: process.env.NODE_HOST || "localhost", // lavalink host
+            port: parseInt(process.env.NODE_PORT || "2333"), //lavalink port
+            password: process.env.NODE_PASSWORD || "youshallnotpass", //lavalink pass/auth
+            secure: parseBoolean(process.env.NODE_SECURE || "false"), //lavalink secure "true/false"
             //poru region system have some issues removed for now!
         },
-        {
-            name: process.env.NODE_NAME2 || "Lunox 02", // lavalink node name (anything you want)
-            host: process.env.NODE_HOST2 || "localhost", // lavalink host
-            port: parseInt(process.env.NODE_PORT2 || "2333"), //lavalink port
-            password: process.env.NODE_PASSWORD2 || "youshallnotpass", //lavalink pass/auth
-            secure: parseBoolean(process.env.NODE_SECURE2 || "false"), //lavalink secure "true/false"
-            regions: process.env.NODE_REGIONS2.split(", ") || ["us-central", "us-east"], // available lavalink regions ["singapore", "sydney", "japan", "hongkong", "india", "us-central", "us-east", "us-south", "us-west", "brazil", "russia", "rotterdam", "southafrica"]
-        },
+        // You can add more nodes here if you want, just copy the nodes above and paste it below then change the values. Make sure to specify the option for example "name: process.env.NODE_NAME2 || "Lunox 02". Then add the option to the .env file.
     ],
 
     // LINK DETAILS

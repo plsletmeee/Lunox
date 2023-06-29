@@ -19,7 +19,16 @@
 [![MIT License][license-shield]][license-url]
 
 # 📒 Table of Contents
-[Features](#-features) • [Screenshots](#-screenshots) • [Requirements](#-requirements) • [Installation](#-installation) • [Configuration & Starting](#-configuration--starting) • [Changelogs](#-changelogs) • [License](#-license) • [Credits](#-credits) • [Support Me](#-support-me) • [Special Thanks](#-special-thanks) • [Contributors](#-contributors)
+[Features](#-features)
+ • [Screenshots](#-screenshots)
+ • [Requirements](#-requirements) 
+ • [Installation](#-installation) 
+ • [Configuration & Starting](#-configuration--starting) 
+ • [Changelogs](#-changelogs) • [License](#-license) 
+ • [Credits](#-credits) 
+ • [Support Me](#-support-me) 
+ • [Special Thanks](#-special-thanks) 
+ • [Contributors](#-contributors)
 #
 
 ## 📢 Features
@@ -102,26 +111,20 @@ EMBED_COLOR = #Your bot embed color
 OWNER_ID = #Your discord id
 GUILD_LOGS = #Your guidl channel id for logs
 LEAVE_TIMEOUT = 60000 #Time in ms to leave the voice channel after the last user leaves
+DISABLE_YOUTUBE = false #Enable or disable youtube feature "true/false". Disabling this will make "autoplay" command useless!!!
 
 #PORU DETAILS
 PLAY_SOURCE = ytmsearch #Default source to search for songs
 DEFAULT_SOURCE = ytmsearch #Default source to play the searched songs
 SPOTIFY_ID = #Your spotify client id
 SPOTIFY_SECRET = #Your spotify client secret
-NODE_NAME1 = Lunox 1 #Name of the first lavalink, could be anything
-NODE_HOST1 = localhost #Host of the first lavalink
-NODE_PORT1 = 2333 #Port of the first lavalink
-NODE_PASSWORD1 = youshallnotpass #Password of the first lavalink
-NODE_SECURE1 = false #If the first lavalink is secure or not
-NODE_REGIONS1 = "singapore, japan" #Available regions to set ↴
-#singapore, sydney, japan, hongkong, india, us-central, us-east, us-south, us-west, brazil, russia, rotterdam, southafrica
-NODE_NAME2 = Lunox 2 #Name of the second lavalink, could be anything
-NODE_HOST2 = localhost #Host of the second lavalink
-NODE_PORT2 = 2333 #Port of the second lavalink
-NODE_PASSWORD2 = youshallnotpass #Password of the second lavalink
-NODE_SECURE2 = false #If the second lavalink is secure or not
-NODE_REGIONS2 = "us-central, us-east" #Available regions to set ↴
-#singapore, sydney, japan, hongkong, india, us-central, us-east, us-south, us-west, brazil, russia, rotterdam, southafrica
+
+#LAVALINK NODE DETAILS
+NODE_NAME = Lunox #Name of the first lavalink, could be anything
+NODE_HOST = localhost #Host of the first lavalink
+NODE_PORT = 2333 #Port of the first lavalink
+NODE_PASSWORD = youshallnotpass #Password of the first lavalink
+NODE_SECURE = false #If the first lavalink is secure or not
 
 #LINK DETAILS
 MONGO_URI = #Your mongodb uri (mongodb+srv://<username>:<password>@<db_cluster_url>/<db_name>)
