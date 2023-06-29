@@ -120,11 +120,11 @@ SPOTIFY_ID = #Your spotify client id
 SPOTIFY_SECRET = #Your spotify client secret
 
 #LAVALINK NODE DETAILS
-NODE_NAME = Lunox #Name of the first lavalink, could be anything
-NODE_HOST = localhost #Host of the first lavalink
-NODE_PORT = 2333 #Port of the first lavalink
-NODE_PASSWORD = youshallnotpass #Password of the first lavalink
-NODE_SECURE = false #If the first lavalink is secure or not
+NODE_NAME = Lunox #Name of the your lavalink, could be anything
+NODE_HOST = localhost #Host of the your lavalink
+NODE_PORT = 2333 #Port of the your lavalink
+NODE_PASSWORD = youshallnotpass #Password of the your lavalink
+NODE_SECURE = false #If the your lavalink is secure or not
 
 #LINK DETAILS
 MONGO_URI = #Your mongodb uri (mongodb+srv://<username>:<password>@<db_cluster_url>/<db_name>)
