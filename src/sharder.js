@@ -2,10 +2,10 @@ const { ClusterManager } = require("discord-hybrid-sharding"); //imports the sha
 require("dotenv").config();
 
 const manager = new ClusterManager(`${__dirname}/index.js`, {
-    totalShards: "auto", // you can set to every number you want but for save mode, use "auto" option
+    totalShards: 2, // you can set to every number you want but for save mode, use "auto" option
     shardsPerClusters: 2, // Default is 2, you can any bigger number you want
-    totalClusters: "auto", // you can set to every number you want but for save mode, use "auto" option
-    mode: "process", // you can also choose "worker"
+    totalClusters: 2, // you can set to every number you want but for save mode, use "auto" option
+    mode: "worker", // you can also choose "worker"
     token: process.env.TOKEN || "YOUR_BOT_TOKEN", //paste your token here
 });
 
