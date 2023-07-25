@@ -61,10 +61,10 @@ module.exports = MainClient;
 
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 1000
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.sendStatus(200);
 })
 
 app.listen(port, () => {
